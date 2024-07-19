@@ -1,0 +1,20 @@
+{
+  "name": "vite-assemblyscript",
+  "author": "stagas",
+  "version": "1.0.0",
+  "description": "Use AssemblyScript in Vite projects.",
+  "license": "AGPLv3",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo ok"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "ambient-dts": "github:stagas/ambient-dts"
+  },
+  "dependencies": {
+    "assemblyscript": "^0.27.29",
+    "vite": "^5.3.4"
+  }
+}
